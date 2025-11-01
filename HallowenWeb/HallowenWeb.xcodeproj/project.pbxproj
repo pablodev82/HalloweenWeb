@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F57DA12EAACF08006FEEB1 /* HallowenWebApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F57DA02EAACF08006FEEB1 /* HallowenWebApp.swift */; };
+		84F57DA32EAACF08006FEEB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F57DA22EAACF08006FEEB1 /* ContentView.swift */; };
+		84F57DA52EAACF0A006FEEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F57DA42EAACF0A006FEEB1 /* Assets.xcassets */; };
+		84F57DA82EAACF0A006FEEB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F57DA72EAACF0A006FEEB1 /* Preview Assets.xcassets */; };
+		84F57DB32EAACF0B006FEEB1 /* HallowenWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F57DB22EAACF0B006FEEB1 /* HallowenWebTests.swift */; };
+		84F57DBE2EAACF0B006FEEB1 /* HallowenWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F57DBD2EAACF0B006FEEB1 /* HallowenWebUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		84F57DD12EAAD098006FEEB1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		84F57DAF2EAACF0B006FEEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F57D952EAACF08006FEEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F57D9C2EAACF08006FEEB1;
+			remoteInfo = HallowenWeb;
+		};
+		84F57DBA2EAACF0B006FEEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F57D952EAACF08006FEEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F57D9C2EAACF08006FEEB1;
+			remoteInfo = HallowenWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F57D9D2EAACF08006FEEB1 /* HallowenWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallowenWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F57DA02EAACF08006FEEB1 /* HallowenWebApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallowenWebApp.swift; sourceTree = "<group>"; };
+		84F57DA22EAACF08006FEEB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84F57DA42EAACF0A006FEEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F57DA72EAACF0A006FEEB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84F57DA92EAACF0A006FEEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F57DAE2EAACF0B006FEEB1 /* HallowenWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallowenWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F57DB22EAACF0B006FEEB1 /* HallowenWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallowenWebTests.swift; sourceTree = "<group>"; };
+		84F57DB42EAACF0B006FEEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F57DB92EAACF0B006FEEB1 /* HallowenWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallowenWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F57DBD2EAACF0B006FEEB1 /* HallowenWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallowenWebUITests.swift; sourceTree = "<group>"; };
+		84F57DBF2EAACF0B006FEEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F57D9A2EAACF08006FEEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DAB2EAACF0B006FEEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DB62EAACF0B006FEEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F57D942EAACF08006FEEB1 = {
+			isa = PBXGroup;
+			children = (
+				84F57D9F2EAACF08006FEEB1 /* HallowenWeb */,
+				84F57DB12EAACF0B006FEEB1 /* HallowenWebTests */,
+				84F57DBC2EAACF0B006FEEB1 /* HallowenWebUITests */,
+				84F57D9E2EAACF08006FEEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F57D9E2EAACF08006FEEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F57D9D2EAACF08006FEEB1 /* HallowenWeb.app */,
+				84F57DAE2EAACF0B006FEEB1 /* HallowenWebTests.xctest */,
+				84F57DB92EAACF0B006FEEB1 /* HallowenWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F57D9F2EAACF08006FEEB1 /* HallowenWeb */ = {
+			isa = PBXGroup;
+			children = (
+				84F57DA02EAACF08006FEEB1 /* HallowenWebApp.swift */,
+				84F57DA22EAACF08006FEEB1 /* ContentView.swift */,
+				84F57DA42EAACF0A006FEEB1 /* Assets.xcassets */,
+				84F57DA92EAACF0A006FEEB1 /* Info.plist */,
+				84F57DA62EAACF0A006FEEB1 /* Preview Content */,
+			);
+			path = HallowenWeb;
+			sourceTree = "<group>";
+		};
+		84F57DA62EAACF0A006FEEB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84F57DA72EAACF0A006FEEB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84F57DB12EAACF0B006FEEB1 /* HallowenWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F57DB22EAACF0B006FEEB1 /* HallowenWebTests.swift */,
+				84F57DB42EAACF0B006FEEB1 /* Info.plist */,
+			);
+			path = HallowenWebTests;
+			sourceTree = "<group>";
+		};
+		84F57DBC2EAACF0B006FEEB1 /* HallowenWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F57DBD2EAACF0B006FEEB1 /* HallowenWebUITests.swift */,
+				84F57DBF2EAACF0B006FEEB1 /* Info.plist */,
+			);
+			path = HallowenWebUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F57D9C2EAACF08006FEEB1 /* HallowenWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F57DC22EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWeb" */;
+			buildPhases = (
+				84F57D992EAACF08006FEEB1 /* Sources */,
+				84F57D9A2EAACF08006FEEB1 /* Frameworks */,
+				84F57D9B2EAACF08006FEEB1 /* Resources */,
+			);
+			buildRules = (
+				84F57DD12EAAD098006FEEB1 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = HallowenWeb;
+			productName = HallowenWeb;
+			productReference = 84F57D9D2EAACF08006FEEB1 /* HallowenWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F57DAD2EAACF0B006FEEB1 /* HallowenWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F57DC52EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWebTests" */;
+			buildPhases = (
+				84F57DAA2EAACF0B006FEEB1 /* Sources */,
+				84F57DAB2EAACF0B006FEEB1 /* Frameworks */,
+				84F57DAC2EAACF0B006FEEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F57DB02EAACF0B006FEEB1 /* PBXTargetDependency */,
+			);
+			name = HallowenWebTests;
+			productName = HallowenWebTests;
+			productReference = 84F57DAE2EAACF0B006FEEB1 /* HallowenWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F57DB82EAACF0B006FEEB1 /* HallowenWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F57DC82EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWebUITests" */;
+			buildPhases = (
+				84F57DB52EAACF0B006FEEB1 /* Sources */,
+				84F57DB62EAACF0B006FEEB1 /* Frameworks */,
+				84F57DB72EAACF0B006FEEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F57DBB2EAACF0B006FEEB1 /* PBXTargetDependency */,
+			);
+			name = HallowenWebUITests;
+			productName = HallowenWebUITests;
+			productReference = 84F57DB92EAACF0B006FEEB1 /* HallowenWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F57D952EAACF08006FEEB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					84F57D9C2EAACF08006FEEB1 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					84F57DAD2EAACF0B006FEEB1 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 84F57D9C2EAACF08006FEEB1;
+					};
+					84F57DB82EAACF0B006FEEB1 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 84F57D9C2EAACF08006FEEB1;
+					};
+				};
+			};
+			buildConfigurationList = 84F57D982EAACF08006FEEB1 /* Build configuration list for PBXProject "HallowenWeb" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F57D942EAACF08006FEEB1;
+			productRefGroup = 84F57D9E2EAACF08006FEEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F57D9C2EAACF08006FEEB1 /* HallowenWeb */,
+				84F57DAD2EAACF0B006FEEB1 /* HallowenWebTests */,
+				84F57DB82EAACF0B006FEEB1 /* HallowenWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F57D9B2EAACF08006FEEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F57DA82EAACF0A006FEEB1 /* Preview Assets.xcassets in Resources */,
+				84F57DA52EAACF0A006FEEB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DAC2EAACF0B006FEEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DB72EAACF0B006FEEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F57D992EAACF08006FEEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F57DA32EAACF08006FEEB1 /* ContentView.swift in Sources */,
+				84F57DA12EAACF08006FEEB1 /* HallowenWebApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DAA2EAACF0B006FEEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F57DB32EAACF0B006FEEB1 /* HallowenWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F57DB52EAACF0B006FEEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F57DBE2EAACF0B006FEEB1 /* HallowenWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F57DB02EAACF0B006FEEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F57D9C2EAACF08006FEEB1 /* HallowenWeb */;
+			targetProxy = 84F57DAF2EAACF0B006FEEB1 /* PBXContainerItemProxy */;
+		};
+		84F57DBB2EAACF0B006FEEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F57D9C2EAACF08006FEEB1 /* HallowenWeb */;
+			targetProxy = 84F57DBA2EAACF0B006FEEB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84F57DC02EAACF0B006FEEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F57DC12EAACF0B006FEEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F57DC32EAACF0B006FEEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HallowenWeb/Preview Content\"";
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HallowenWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F57DC42EAACF0B006FEEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HallowenWeb/Preview Content\"";
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HallowenWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84F57DC62EAACF0B006FEEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HallowenWebTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HallowenWeb.app/HallowenWeb";
+			};
+			name = Debug;
+		};
+		84F57DC72EAACF0B006FEEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HallowenWebTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HallowenWeb.app/HallowenWeb";
+			};
+			name = Release;
+		};
+		84F57DC92EAACF0B006FEEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HallowenWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HallowenWeb;
+			};
+			name = Debug;
+		};
+		84F57DCA2EAACF0B006FEEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A33YTXXVWU;
+				INFOPLIST_FILE = HallowenWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devsk8.HallowenWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HallowenWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F57D982EAACF08006FEEB1 /* Build configuration list for PBXProject "HallowenWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F57DC02EAACF0B006FEEB1 /* Debug */,
+				84F57DC12EAACF0B006FEEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F57DC22EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F57DC32EAACF0B006FEEB1 /* Debug */,
+				84F57DC42EAACF0B006FEEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F57DC52EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F57DC62EAACF0B006FEEB1 /* Debug */,
+				84F57DC72EAACF0B006FEEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F57DC82EAACF0B006FEEB1 /* Build configuration list for PBXNativeTarget "HallowenWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F57DC92EAACF0B006FEEB1 /* Debug */,
+				84F57DCA2EAACF0B006FEEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F57D952EAACF08006FEEB1 /* Project object */;
+}
